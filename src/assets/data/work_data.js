@@ -2,6 +2,7 @@ import vidly from "../images/work/vidly.png";
 import counter from "../images/work/counter.png";
 import github from "../images/work/github.png";
 import todoList from "../images/work/todoList.png";
+import router from "../images/work/router.png";
 import sky from "../images/work/sky.png";
 
 export default [
@@ -39,14 +40,6 @@ export default [
     demoLink: "https://todolist-starter.herokuapp.com/"
   },
   {
-    name: "sky-counter",
-    info: "Check out your favourite books.",
-    img: sky,
-    alt: "sky",
-    codeLink: "https://github.com/Shailendra9k/to-do-starter",
-    demoLink: "https://github.com/Shailendra9k/sky-counter"
-  },
-  {
     name: "react-router",
     info:
       "Browser throuhg various links from one page to another on different tabs.",
@@ -54,5 +47,13 @@ export default [
     alt: "react-reuter",
     codeLink: "https://github.com/Shailendra9k/React-Routing",
     demoLink: "https://react-routr.netlify.com/"
+  },
+  {
+    name: "sky-counter",
+    info: "Check out your favourite books.",
+    img: sky,
+    alt: "sky",
+    codeLink: "https://github.com/Shailendra9k/to-do-starter",
+    demoLink: "https://github.com/Shailendra9k/sky-counter"
   }
 ];
