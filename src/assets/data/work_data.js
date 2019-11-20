@@ -15,7 +15,7 @@ export default [
     img: github,
     alt: "chatapp",
     codeLink: "https://github.com/Shailendra9k/GitHub-REST-API",
-    demoLink: "https://getgithub.herokuapp.com/"
+    demoLink: "https://repositories.netlify.com/"
   },
   {
     name: "Todo-List",
