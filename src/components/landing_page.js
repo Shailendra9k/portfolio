@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import splash1 from "../assets/images/landing/splash1.jpg";
+import splash from "../assets/images/landing/splash1.jpg";
 
 let background = { backgroundSize: "cover" };
 
@@ -13,7 +13,7 @@ let textStyle1 = {
 export default props => {
   return (
     <div className="landing-img" id="landing" style={{ width: "auto" }}>
-      <Image style={background} responsive src={splash1}></Image>
+      <Image style={background} responsive src={splash}></Image>
 
       <h3>Full Stack Dev | Haaga-Helia Student | Entrepreneurial mindset</h3>
       <h5>
