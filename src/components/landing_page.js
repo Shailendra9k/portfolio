@@ -7,7 +7,7 @@ let background = { backgroundSize: "cover" };
 let textStyle1 = {
   position: "absolute",
   top: "30%",
-  left: "50%"
+  left: "0%"
 };
 
 export default props => {
@@ -23,10 +23,10 @@ export default props => {
       </h5>
       <hr />
       <h1 style={textStyle1}>
-        <span style={{ fontSize: "50px", color: "grey" }}>
+        <span style={{ fontSize: "50px", color: "#dfe6e9" }}>
           Hello, I'm{" "}
           <strong>
-            <em style={{ fontSize: "80px", color: "white" }}>Shailendra</em>
+            <em style={{ fontSize: "70px", color: "#686de0" }}>Shailendra</em>
           </strong>
         </span>
       </h1>

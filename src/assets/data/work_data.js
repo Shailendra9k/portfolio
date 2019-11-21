@@ -29,7 +29,7 @@ export default [
     img: github,
     alt: "github",
     codeLink: "https://github.com/Shailendra9k/GitHub-REST-API",
-    demoLink: "https://repositories.netlify.com/"
+    demoLink: "https://githubrepos.netlify.com/"
   },
   {
     name: "Todo-List",

@@ -1,5 +1,4 @@
 import React from "react";
-
 import linkedinLogo from "../assets/images/footer/linkedin.jpg";
 import githubLogo from "../assets/images/footer/github.png";
 
@@ -33,7 +32,7 @@ export default props => {
                   className=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1O_RfYKskmb5mm5iIv6pfUmaFx_weWkCh/view"
+                  href="https://drive.google.com/file/d/1fhGMknt1vJRbeclO9qSDzengeV_T_k-2/view"
                 >
                   <i className="medium material-icons">description</i>
                   <br />

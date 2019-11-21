@@ -1,3 +1,70 @@
+import React, { Component } from "react";
+import InitialMap from "./google_map";
+
+class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      markers: [
+        {
+          position: {
+            lat: -34.397,
+            lng: 150.644
+          }
+        }
+      ]
+    };
+  }
+
+  render() {
+    return (
+      <section id="contact">
+        <div className="container">
+          <h3 className="white-color">Contact Me</h3>
+          <hr className="white-color sub" />
+          <p className="text-faded contact">
+            Technology is playing bigger role in connecting people without
+            considering geography, language and culture or tradition.
+          </p>
+          <div className="row">
+            <div className="col-md-7">
+              <InitialMap
+                loadingElement={<div style={{ height: `100%` }} />}
+                containerElement={<div style={{ height: `500px` }} />}
+                mapElement={<div style={{ height: `100%` }} />}
+                markers={this.state.markers}
+              />
+            </div>
+            <div className="col-md-5">
+              <ul>
+                <li style={{ fontSize: "25px", color: "white" }}>
+                  <i className="fa fa-phone" aria-hidden="true" />
+                  &nbsp; +358 400268340
+                </li>
+                <li style={{ fontSize: "25px", color: "white" }}>
+                  <i className="fa fa-at" aria-hidden="true" />
+                  &nbsp; shailendrakushwaha9@gmail.com
+                </li>
+                <li style={{ fontSize: "25px", color: "white" }}>
+                  <i className="fa fa-home" aria-hidden="true" />
+                  &nbsp; Pasilanraitio 6A 07, 00240, Helsinki
+                </li>
+                <li style={{ fontSize: "25px", color: "white" }}>
+                  <i className="fa fa-twitter" aria-hidden="true" />
+                  &nbsp; @Shailendra
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+}
+
+export default Contact;
+
 // import React, { Component } from 'react';
 // import axios from 'axios';
 
@@ -197,69 +264,3 @@
 //     );
 //   }
 // }
-import React, { Component } from "react";
-import InitialMap from "./google_map";
-
-class Contact extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      markers: [
-        {
-          position: {
-            lat: -34.397,
-            lng: 150.644
-          }
-        }
-      ]
-    };
-  }
-
-  render() {
-    return (
-      <section id="contact">
-        <div className="container">
-          <h3 className="white-color">Contact Me</h3>
-          <hr className="white-color sub" />
-          <p className="text-faded contact">
-            Technology is playing bigger role in connecting people without
-            considering geography, language and culture or tradition.
-          </p>
-          <div className="row">
-            <div className="col-md-7">
-              <InitialMap
-                loadingElement={<div style={{ height: `100%` }} />}
-                containerElement={<div style={{ height: `500px` }} />}
-                mapElement={<div style={{ height: `100%` }} />}
-                markers={this.state.markers}
-              />
-            </div>
-            <div className="col-md-5">
-              <ul>
-                <li style={{ fontSize: "25px", color: "white" }}>
-                  <i className="fa fa-phone" aria-hidden="true" />
-                  &nbsp; +358 400268340
-                </li>
-                <li style={{ fontSize: "25px", color: "white" }}>
-                  <i className="fa fa-at" aria-hidden="true" />
-                  &nbsp; shailendrakushwaha9@gmail.com
-                </li>
-                <li style={{ fontSize: "25px", color: "white" }}>
-                  <i className="fa fa-home" aria-hidden="true" />
-                  &nbsp; Pasilanraitio 6A 07, 00240, Helsinki
-                </li>
-                <li style={{ fontSize: "25px", color: "white" }}>
-                  <i className="fa fa-twitter" aria-hidden="true" />
-                  &nbsp; @shailen
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
-}
-
-export default Contact;
