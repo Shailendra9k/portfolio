@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import splash from "../assets/images/landing/splash1.jpg";
+import splash from "../assets/images/landing/splash.png";
 
 let background = { backgroundSize: "cover" };
 
