@@ -11,7 +11,8 @@ export default props => {
             <h3>Let's Connect!</h3>
             <hr className="sub" />
             <p className="text-faded contact dark">
-              Priorities should be options instead of compulsion.
+              Don't stop connecting with people as networking is big asset build
+              with time.
             </p>
 
             <div className="row footerRow">

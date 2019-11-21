@@ -24,8 +24,8 @@ class Contact extends Component {
           <h3 className="white-color">Contact Me</h3>
           <hr className="white-color sub" />
           <p className="text-faded contact">
-            Technology is playing bigger role in connecting people without
-            considering geography, language and culture or tradition.
+            Technology is playing bigger role in connecting people turning whole
+            world to common village.
           </p>
           <div className="row">
             <div className="col-md-7">
