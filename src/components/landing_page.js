@@ -15,7 +15,7 @@ export default props => {
     <div className="landing-img" id="landing" style={{ width: "auto" }}>
       <Image style={background} responsive src={splash}></Image>
 
-      <h3>Full Stack Dev | Haaga-Helia Student | Entrepreneurial mindset</h3>
+      <h3>Front-end Dev | Haaga-Helia Student | Entrepreneurial mindset</h3>
       <h5>
         {" "}
         HTML/CSS | Bootstrap | JavaScript | OOP | React | NodeJS | MongoDB |
