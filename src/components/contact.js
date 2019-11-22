@@ -44,11 +44,11 @@ class Contact extends Component {
                 </li>
                 <li style={{ fontSize: "25px", color: "white" }}>
                   <i className="fa fa-at" aria-hidden="true" />
-                  &nbsp; shailendrakushwaha9@gmail.com
+                  &nbsp; shailendra.kooshwaha@gmail.com
                 </li>
                 <li style={{ fontSize: "25px", color: "white" }}>
                   <i className="fa fa-home" aria-hidden="true" />
-                  &nbsp; Pasilanraitio 6A 07, 00240, Helsinki
+                  &nbsp; Pasilanraitio 6A, 00240, Helsinki
                 </li>
                 <li style={{ fontSize: "25px", color: "white" }}>
                   <i className="fa fa-twitter" aria-hidden="true" />
