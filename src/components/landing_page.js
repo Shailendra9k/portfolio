@@ -26,7 +26,7 @@ export default props => {
         <span style={{ fontSize: "50px", color: "#dfe6e9" }}>
           Hello, I'm{" "}
           <strong>
-            <em style={{ fontSize: "70px", color: "#686de0" }}>Shailendra</em>
+            <em style={{ fontSize: "70px", color: "#ffffff" }}>Shailendra</em>
           </strong>
         </span>
       </h1>

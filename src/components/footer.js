@@ -33,7 +33,7 @@ export default props => {
                   className=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1ZhDcgqJnUsQkZccfkXLuMitP5YdqmYGv/view"
+                  href="https://drive.google.com/file/d/1yclnD9iKoK50AdGjB3VNkdoHeeDKQ43g/view"
                 >
                   <i className="medium material-icons">description</i>
                   <br />
